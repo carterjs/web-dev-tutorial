@@ -135,6 +135,14 @@ Now, here's some of the CSS that goes along with that:
 
 Take note of the structure of this CSS. There's what's called a *selector* (`.promo .promo-content`, `.promo h3`) followed by a *block* that lists *properties* and their *values*. 
 
+### Including CSS
+
+Most of the time, you'll find CSS in an external file like `styles.css`. These files can be included from within the `head` section of your HTML document using the `link` tag like so: `<link rel="stylesheet" href="style.css">`
+
+CSS can also be included within `style` tags, also generally found in the `head` section of the document.
+
+It's also possible to include styles directly onto an element. For example `<h1 style="font-size: 100px">BIG</h1>`. Styles attached to an element through the `style` attribute are referred to as *inline*.
+
 ### Selectors
 
 A selector does exactly what you might imagine: it selects an element or a group of elements. There are many ways to do this, so let's just go over a few.

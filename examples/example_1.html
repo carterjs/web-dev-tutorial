@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="A fun new blog" />
+		<meta name="keywords" content="HTML, CSS, JavaScript" />
+		<meta name="author" content="Carter Schmalzle" />
+        <title>Carter's Cool Website</title>
+        <style>
+            html, body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            header {
+                padding: 1rem;
+                display: flex;
+                align-items: center;
+                border-bottom: 1px solid #ddd;
+            }
+            header h1 {
+                margin: 0;
+                flex: auto;
+            }
+            header nav {
+                padding: 8px;
+            }
+            header nav a {
+                padding-left: 1rem;
+            }
+
+            main, footer, aside {
+                max-width: 960px;
+                margin: 5% auto;
+            }
+
+            figure {
+                float: right;
+            }
+
+            aside {
+                margin-top: 10%;
+            }
+            aside .articles {
+                display: flex;
+            }
+
+            .articles article {
+                padding: 1rem;
+            }
+
+            footer {
+                border-top: 1px dashed #ddd;
+            }
+            footer nav {
+                float: right;
+            }
+            footer > p {
+                float: left;
+            }
+            footer nav, footer p {
+                margin: 0;
+                padding: 1rem 0;
+            }
+            footer small {
+                display: block;
+                margin: 2rem 0;
+                text-align: center;
+                clear: both;
+            }
+        </style>
+	</head>
+	<body>
+		<header>
+			<h1>Carter's Cool Website</h1>
+			<nav>
+				<a href="#about">About me</a>
+				<a href="#contact">Contact</a>
+			</nav>
+		</header>
+		<main>
+			<article>
+				<h1>A blog post</h1>
+                <p>This is a blog post on my website.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga eos voluptatem, suscipit, dolor placeat dolores natus nobis, necessitatibus inventore velit dolorem eveniet ad fugiat. Impedit alias velit itaque asperiores exercitationem!</p>
+                <figure>
+                    <img src="/explore_bethlehem_snippet.png" alt="Explore Bethlehem" />
+                    <figcaption>This is the picture I used in the tutorial!</figcaption>
+                </figure>
+            </article>
+			<section id="about">
+				<h1>About the author</h1>
+				<p>Hi my name is Carter Schmalzle and I'm the author.</p>
+				<p>Don't just take that from me, hear it from him yourself!</p>
+				<blockquote>
+					My name is Carter.
+				</blockquote>
+				<h2>Interests</h2>
+				<ul>
+					<li>Skiing</li>
+					<li>Programming</li>
+					<li>Music</li>
+				</ul>
+            </section>
+            <section id="contact">
+                <h2>Contact me</h2>
+                <p>Feel free to email me at <a href="mailto:cjs522@lehigh.edu">cjs522@lehigh.edu</a></p>
+            </section>
+		</main>
+		<aside>
+            <h2>You may also like:</h2>
+            <div class="articles">
+                <article>
+                    <h1>Another blog post</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eaque quae voluptatem dolor, reiciendis corporis sed id iusto labore eum sapiente exercitationem beatae provident, ducimus explicabo similique. Laudantium, cumque asperiores!</p>
+                </article>
+                <article>
+                    <h1>Another blog post</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo consequuntur cupiditate commodi? Distinctio deserunt cupiditate, impedit neque ducimus earum commodi nam ipsa hic voluptatem exercitationem repellat veniam aliquid obcaecati voluptatibus!</p>
+                </article>
+            </div>
+		</aside>
+		<footer>
+            <p>Also check out <a href="https://www.lehigh.edu/">Lehigh University</a></p>
+			<nav>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+			</nav>
+			<small>Copyright (&copy;) 2020 Carter Schmalzle</small>
+		</footer>
+	</body>
+</html>
