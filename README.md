@@ -1,6 +1,6 @@
 # Objectives
 
-By the end of this tutorial, you'll understand how websites are created, served, and rendered. We will go through a general overview of HTML and CSS and how JavaScript relates to those technologies. We will also discuss the current state of web development and 
+By the end of this tutorial, you'll understand how websites are created, served, and rendered. We will go through a general overview of HTML and CSS and how JavaScript relates to those technologies. We will also discuss the current state of web development.
 
 ## HTML
 
